@@ -1,0 +1,4 @@
+>>> How to Publish
+
+Jalankan baris perintah ini di cmd / terminal
+"dotnet publish -c Release -o dist"
