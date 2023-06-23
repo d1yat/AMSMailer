@@ -12,7 +12,6 @@ namespace AMSMailer
     {
         public static void Main(string[] args)
         {
-            // write your code here
             var today = DateTime.Now.DayOfWeek;
             string destdir = @"S:\Aplikasi\Project\AMS\AMSMailer\" + DateTime.Now.ToString("dd-MMM-yyyy");
             string olddir = @"S:\Aplikasi\Project\AMS\AMSMailer\" + DateTime.Now.AddDays(-2).ToString("dd-MMM-yyyy");
