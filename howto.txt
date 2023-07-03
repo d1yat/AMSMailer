@@ -2,3 +2,8 @@
 
 Jalankan baris perintah ini di cmd / terminal
 "dotnet publish -c Release -o dist"
+
+Copy file "recipient.txt" ke folder "dist"
+
+Copy folder "dist" ke server 10.100.41.28
+Paste di direktori "D:\AMSMailer", kemudian rename foldernya m'jadi "publish"
